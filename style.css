@@ -1,7 +1,38 @@
 * {
-    font-family: 'Montserrat','Trebuchet MS',arial,sans-serif;
+    font-family: 'Trebuchet Ms',sans-serif;
 }
 
-h1 {
+.wrapper-index h1 {
     text-transform: uppercase;
+    color: salmon;
+}
+
+.wrapper-index table {
+    border: 1px solid #DDEEEE;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 70%;
+    margin: 10px auto;
+}
+.wrapper-index table thead th {
+    background-color: #DDEFEF;
+    border: 1px solid #DDEEEE;
+    color: #336B6B;
+    padding: 10px;
+    text-align: left;
+    text-shadow: 1px 1px 1px #fff;
+    text-decoration: none;
+}
+.wrapper-index table tbody td {
+    border: 1px solid #DDEEEE;
+    color: #333;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+}
+.wrapper-index a{
+    background-color: salmon;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 12px;
 }
