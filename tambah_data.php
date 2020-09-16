@@ -1,5 +1,5 @@
 <?php
-include('koneksi.php')
+include('koneksi.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,7 +12,7 @@ include('koneksi.php')
     <body>
         <div class="wrapper-tambah">
             <center><h1 style="font-weight: bold;">Tambah data</h1></center>
-            <form action="proses_tambah.php" method="POST">
+            <form action="proses_tambah.php" method="POST" enctype="multipart/form-data">
                 <section class="base">
                     <div class="form">
                         <label for="nama">NIM</label>
@@ -45,8 +45,8 @@ include('koneksi.php')
                         <select name="agama" id="agama" required>
                             <option value="null" disabled selected>Pilih agama anda</option>
                             <option value="islam">Islam</option>
-                            <option value="kristen">Kristen Protestan</option>
-                            <option value="katolik">Kristen Katolik</option>
+                            <option value="kristen protestan">Kristen Protestan</option>
+                            <option value="kristen katolik">Kristen Katolik</option>
                             <option value="budha">Budha</option>
                             <option value="hindu">Hindu</option>
                         </select>
@@ -55,7 +55,7 @@ include('koneksi.php')
                     <div class="form form-checkbox">
                         <label for="olahraga">Olahraga favorit</label> <br />
                         <label for="bola" class="label-checkbox">
-                        <input type="checkbox" id="bola" name="olahraga[]" value="Bola">
+                        <input type="checkbox" id="bola" name="olahraga[]" value="Sepak Bola">
                         Sepak bola
                         </label>
                         <label for="basket" class="label-checkbox">
@@ -77,11 +77,11 @@ include('koneksi.php')
                     </div>
                     <div class="form">
                         <label>Foto mahasiswa</label>
-                        <input type="file" name="foto">
+                        <input type="file" name="foto" required>
                     </div>
                     <div class="form-submit">
                         <button type="submit" class="btn-submit" name="submit">Simpan data</button>
-                        <button type="reset" class="btn-reset">Reset!!</button>
+                        <button type="reset" class="btn-reset">Reset!!!</button>
                     </div>
                 </section>
             </form>

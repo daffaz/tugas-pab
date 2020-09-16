@@ -44,9 +44,9 @@ include('koneksi.php')
                         <td><?php echo $baris['agama'] ?></td>
                         <td><?php echo $baris['olahraga'] ?></td>
                         <td style="text-align: center;"><img src="images/<?php echo $baris['foto'] ?>" style="width:120px;"></td>
-                        <td>
+                        <td style="width: 105px;">
                             <a href="edit_data.php?id=<?php echo $baris['id'] ?>">Edit</a>
-                            <a href="hapus.php?id=<?php echo $baris['id'] ?>" onclick="return confirm('Anda yakin ingin menghapus data ini?')">Hapus</a>
+                            <a href="proses_hapus.php?id=<?php echo $baris['id'] ?>" onclick="return confirm('Anda yakin ingin menghapus data ini?')">Hapus</a>
                         </td>
                     </tr>
                     <?php 

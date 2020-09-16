@@ -12,7 +12,7 @@ h1 {
     border: 1px solid #DDEEEE;
     border-collapse: collapse;
     border-spacing: 0;
-    width: 70%;
+    width:75%;
     margin: 10px auto;
 }
 .wrapper-index table thead th {
@@ -102,7 +102,7 @@ div .form-check {
 }
 .wawanita {
     padding-right: 33px;
-    display: inline-block: ;
+    display: inline-block ;
     border: 1px solid hotpink;
     border-radius: 7px;
     color: #ededed;
