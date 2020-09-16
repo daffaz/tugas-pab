@@ -1,8 +1,9 @@
-* {
-    font-family: 'Trebuchet Ms',sans-serif;
-}
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 
-.wrapper-index h1 {
+* {
+    font-family: 'Poppins','Trebuchet Ms',sans-serif;
+}
+h1 {
     text-transform: uppercase;
     color: salmon;
 }
@@ -35,4 +36,105 @@
     padding: 10px;
     text-decoration: none;
     font-size: 12px;
+}
+/*BAGIAN TAMBAH DATA*/
+.btn-submit {
+    background-color: green;
+    color: #fff;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-size: 10px;
+    border: 0px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px darkgreen;
+}
+.btn-submit:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+.btn-reset {
+    margin-left: 20px;
+    background-color: #ff0000;
+    color: #fff;
+    padding: 8px 28px;
+    text-decoration: none;
+    font-size: 10px;
+    border: 0px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    box-shadow: 0 10px darkred;
+}
+.btn-reset:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+.wrapper-tambah label {
+    margin-top: 10px;
+    float: left;
+    text-align: left;
+    width: 100%;
+}
+.wrapper-tambah .form .input-grup label {
+    width: auto;
+    float: none;
+}
+div .form-check {
+    width: auto;
+    float: none;
+}
+.input-label {
+    background-color: #f8f8f8;
+    padding: 0 10px;
+    display: inline-block;
+}
+.ppria {
+    padding-right:55px;
+    display: inline-block;
+    border: 1px solid skyblue;
+    border-radius: 7px;
+    color: #ededed;
+    background-color: skyblue;
+    font-size: 14px;
+}
+.wawanita {
+    padding-right: 33px;
+    display: inline-block: ;
+    border: 1px solid hotpink;
+    border-radius: 7px;
+    color: #ededed;
+    background-color: hotpink;
+    font-size: 14px;
+}
+.form select {
+    width: 200px;
+    font-size: 14px;
+}
+.wrapper-tambah input[type="text"], input[type="file"] {
+    padding: 6px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    border: 2px solid #ccc;
+    outline-color: salmon;
+}
+.wrapper-tambah .form {
+    width: 100%;
+    height: auto;
+}
+.wrapper-tambah .base {
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    margin: 0 auto ;
+    background-color: #ededed;
+}
+.label-checkbox {
+    background-color: #e8e8e8;
+}
+.label-checkbox:active {
+    background-color: #b8b8b8;
 }
