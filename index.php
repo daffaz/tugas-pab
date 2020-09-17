@@ -12,7 +12,7 @@ include('koneksi.php')
             <center><h1>Data mahasiswa</h1></center>
             <center><a href="tambah_data.php">+ &nbsp; Tambah data</a></center>
             <br />
-            <table>
+            <table style="background-color: white;">
                 <thead>
                     <tr>
                         <th>No</th>

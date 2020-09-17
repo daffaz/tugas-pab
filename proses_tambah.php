@@ -4,7 +4,7 @@ if(isset($_POST['submit'])) {
     $nim = strtoupper($_POST['nim']);
     $nama = ucwords($_POST['nama']);
     $jk = ucfirst($_POST['jk']);
-    $agama = $_POST['agama'];
+    $agama = ucwords($_POST['agama']);
     // print_r($_POST);
     $olahraga = array();
     foreach($_POST['olahraga'] as $oyeah) {

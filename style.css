@@ -7,7 +7,9 @@ h1 {
     text-transform: uppercase;
     color: salmon;
 }
-
+body {
+    background-color: #f6f6f6;
+}
 .wrapper-index table {
     border: 1px solid #DDEEEE;
     border-collapse: collapse;
